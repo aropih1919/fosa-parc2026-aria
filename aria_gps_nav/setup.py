@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'gps_nav_node = aria_gps_nav.gps_nav_node:main',
         ],
     },
 )
