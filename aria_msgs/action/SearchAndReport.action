@@ -1,0 +1,15 @@
+# Goal : ce qu'on demande au robot
+string target_zone
+string target_color
+string target_shape
+---
+# Result : réponse finale une fois la mission terminée
+bool success
+geometry_msgs/Point position
+float64 distance
+float64 confidence
+string message
+---
+# Feedback : mise à jour envoyée pendant l'exécution
+string current_state
+string info
