@@ -18,4 +18,7 @@
   <export>
     <build_type>ament_python</build_type>
   </export>
+
+  <depend>nav2_msgs</depend>
+  <depend>action_msgs</depend>
 </package>
