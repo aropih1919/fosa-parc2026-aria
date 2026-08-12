@@ -5,6 +5,8 @@ from enum import Enum, auto
 import rclpy
 from rclpy.node import Node
 from rclpy.action import ActionServer, ActionClient
+from rclpy.callback_groups import ReentrantCallbackGroup
+from rclpy.executors import MultiThreadedExecutor
 
 from action_msgs.msg import GoalStatus
 from nav2_msgs.action import NavigateToPose
@@ -22,8 +24,6 @@ class MissionState(Enum):
 
 class MissionManagerNode(Node):
 
-    # Table de correspondance zone -> coordonnées (x, y) dans le repère 'map'.
-    # ⚠️ Valeurs provisoires, à valider avec Edinah selon la taille réelle du monde.
     ZONES = {
         'nord': (10.0, 0.0),
         'sud': (-10.0, 0.0),
@@ -37,31 +37,32 @@ class MissionManagerNode(Node):
         self.state = MissionState.IDLE
         self.CONFIDENCE_THRESHOLD = 0.7
 
+        # Groupe de callbacks "réentrant" : autorise plusieurs callbacks
+        # de ce groupe à s'exécuter en même temps, sur des threads différents.
+        self.cb_group = ReentrantCallbackGroup()
+
         self._action_server = ActionServer(
             self,
             SearchAndReport,
             'search_and_report',
             execute_callback=self.execute_callback,
+            callback_group=self.cb_group,
         )
 
-        # Client vers Nav2 (même action que celle utilisée par Edinah dans son test)
-        self.nav_client = ActionClient(self, NavigateToPose, 'navigate_to_pose')
+        self.nav_client = ActionClient(
+            self,
+            NavigateToPose,
+            'navigate_to_pose',
+            callback_group=self.cb_group,
+        )
 
         self.get_logger().info('mission_manager_node démarré, en attente de missions (IDLE).')
-
-    # ---------- Gestion des états ----------
 
     def set_state(self, new_state: MissionState):
         self.get_logger().info(f'Transition : {self.state.name} -> {new_state.name}')
         self.state = new_state
 
-    # ---------- Navigation réelle (remplace simulate_navigation) ----------
-
     def navigate_to_zone(self, target_zone: str) -> bool:
-        """
-        Envoie un vrai but à Nav2 pour la zone demandée, et ATTEND le résultat
-        réel avant de continuer. Retourne True si succès, False sinon.
-        """
         if target_zone not in self.ZONES:
             self.get_logger().error(f'Zone inconnue : "{target_zone}"')
             return False
@@ -78,7 +79,6 @@ class MissionManagerNode(Node):
         self.get_logger().info(f'Envoi du but Nav2 -> zone={target_zone} (x={x}, y={y})')
         self.nav_client.wait_for_server()
 
-        # Le "verrou" qui va nous permettre d'attendre le résultat réel
         nav_done_event = threading.Event()
         nav_result = {'success': False}
 
@@ -103,10 +103,8 @@ class MissionManagerNode(Node):
         send_goal_future = self.nav_client.send_goal_async(goal_msg)
         send_goal_future.add_done_callback(goal_response_callback)
 
-        nav_done_event.wait()  # bloque CE thread seulement, pas tout le nœud
+        nav_done_event.wait()
         return nav_result['success']
-
-    # ---------- Vision : toujours simulée pour l'instant (J3 partie 2) ----------
 
     def simulate_search(self, target_color: str, target_shape: str):
         self.get_logger().info(f'[SIMULATION] Recherche de "{target_color} {target_shape}"...')
@@ -114,8 +112,6 @@ class MissionManagerNode(Node):
         confidence = 0.92
         position = {'x': 3.5, 'y': 1.2, 'z': 0.0}
         return confidence, position
-
-    # ---------- Le cœur : exécution d'une mission ----------
 
     def execute_callback(self, goal_handle):
         goal = goal_handle.request
@@ -126,7 +122,6 @@ class MissionManagerNode(Node):
 
         feedback_msg = SearchAndReport.Feedback()
 
-        # --- Étape NAVIGATING (maintenant réelle) ---
         self.set_state(MissionState.NAVIGATING)
         feedback_msg.current_state = self.state.name
         feedback_msg.info = f'Navigation vers {goal.target_zone}'
@@ -142,7 +137,6 @@ class MissionManagerNode(Node):
             self.set_state(MissionState.IDLE)
             return result
 
-        # --- Étape SEARCHING (encore simulée) ---
         self.set_state(MissionState.SEARCHING)
         feedback_msg.current_state = self.state.name
         feedback_msg.info = f'Recherche de {goal.target_color} {goal.target_shape}'
@@ -150,7 +144,6 @@ class MissionManagerNode(Node):
 
         confidence, position = self.simulate_search(goal.target_color, goal.target_shape)
 
-        # --- Étape CONFIRMING ---
         self.set_state(MissionState.CONFIRMING)
         feedback_msg.current_state = self.state.name
         feedback_msg.info = f'Vérification (confiance={confidence:.2f})'
@@ -164,7 +157,6 @@ class MissionManagerNode(Node):
             self.set_state(MissionState.IDLE)
             return result
 
-        # --- Étape DONE ---
         self.set_state(MissionState.DONE)
 
         result = SearchAndReport.Result()
@@ -185,8 +177,14 @@ class MissionManagerNode(Node):
 def main(args=None):
     rclpy.init(args=args)
     node = MissionManagerNode()
+
+    # MultiThreadedExecutor : plusieurs threads disponibles, pour éviter
+    # le blocage mutuel entre execute_callback et les callbacks du nav_client.
+    executor = MultiThreadedExecutor()
+    executor.add_node(node)
+
     try:
-        rclpy.spin(node)
+        executor.spin()
     except KeyboardInterrupt:
         pass
     finally:

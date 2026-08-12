@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'mission_manager_node = aria_nlp_mission.mission_manager_node:main',
+            'fake_nav2_node = aria_nlp_mission.fake_nav2_node:main',
         ],
     },
 )
