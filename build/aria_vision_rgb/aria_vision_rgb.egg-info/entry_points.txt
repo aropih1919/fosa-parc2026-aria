@@ -1,0 +1,2 @@
+[console_scripts]
+rgb_vision_node = aria_vision_rgb.rgb_vision_node:main

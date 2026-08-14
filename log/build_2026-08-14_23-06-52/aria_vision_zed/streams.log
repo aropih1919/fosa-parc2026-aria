@@ -1,0 +1,27 @@
+[4.745s] Invoking command in '/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed/build --no-deps symlink_data
+[5.691s] running develop
+[6.192s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[6.192s]   self.local_index = Environment(self.shadow_path + sys.path)
+[6.374s] running egg_info
+[6.374s] creating aria_vision_zed.egg-info
+[6.432s] writing aria_vision_zed.egg-info/PKG-INFO
+[6.433s] writing dependency_links to aria_vision_zed.egg-info/dependency_links.txt
+[6.433s] writing entry points to aria_vision_zed.egg-info/entry_points.txt
+[6.434s] writing requirements to aria_vision_zed.egg-info/requires.txt
+[6.434s] writing top-level names to aria_vision_zed.egg-info/top_level.txt
+[6.434s] writing manifest file 'aria_vision_zed.egg-info/SOURCES.txt'
+[6.545s] reading manifest file 'aria_vision_zed.egg-info/SOURCES.txt'
+[6.546s] writing manifest file 'aria_vision_zed.egg-info/SOURCES.txt'
+[6.608s] running build_ext
+[6.609s] Creating /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/lib/python3.12/site-packages/aria-vision-zed.egg-link (link to .)
+[6.610s] Installing zed_fusion_node script to /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/lib/aria_vision_zed
+[6.611s] Installing zed_stub_publisher script to /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/lib/aria_vision_zed
+[6.611s] 
+[6.612s] Installed /home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed
+[6.612s] running symlink_data
+[6.612s] creating /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/share/ament_index
+[6.612s] creating /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/share/ament_index/resource_index
+[6.613s] creating /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/share/ament_index/resource_index/packages
+[6.613s] symbolically linking /home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed/resource/aria_vision_zed -> /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/share/ament_index/resource_index/packages
+[6.613s] symbolically linking /home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed/package.xml -> /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/share/aria_vision_zed
+[6.774s] Invoked command in '/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed/build --no-deps symlink_data

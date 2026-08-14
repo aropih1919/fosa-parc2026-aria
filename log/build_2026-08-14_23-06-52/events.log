@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.001492] (-) JobUnselected: {'identifier': 'aria_gps_nav'}
+[0.001660] (-) JobUnselected: {'identifier': 'aria_msgs'}
+[0.001719] (-) JobUnselected: {'identifier': 'aria_nlp_mission'}
+[0.001767] (aria_vision_rgb) JobQueued: {'identifier': 'aria_vision_rgb', 'dependencies': OrderedDict()}
+[0.001842] (aria_vision_zed) JobQueued: {'identifier': 'aria_vision_zed', 'dependencies': OrderedDict()}
+[0.001881] (aria_vision_rgb) JobStarted: {'identifier': 'aria_vision_rgb'}
+[0.027184] (aria_vision_zed) JobStarted: {'identifier': 'aria_vision_zed'}
+[0.098974] (-) TimerEvent: {}
+[0.199708] (-) TimerEvent: {}
+[0.300364] (-) TimerEvent: {}
+[0.400793] (-) TimerEvent: {}
+[0.501201] (-) TimerEvent: {}
+[0.601653] (-) TimerEvent: {}
+[0.702033] (-) TimerEvent: {}
+[0.802404] (-) TimerEvent: {}
+[0.902731] (-) TimerEvent: {}
+[1.003101] (-) TimerEvent: {}
+[1.103486] (-) TimerEvent: {}
+[1.203891] (-) TimerEvent: {}
+[1.304634] (-) TimerEvent: {}
+[1.405224] (-) TimerEvent: {}
+[1.505581] (-) TimerEvent: {}
+[1.605998] (-) TimerEvent: {}
+[1.706918] (-) TimerEvent: {}
+[1.807700] (-) TimerEvent: {}
+[1.908157] (-) TimerEvent: {}
+[2.008662] (-) TimerEvent: {}
+[2.109297] (-) TimerEvent: {}
+[2.209947] (-) TimerEvent: {}
+[2.310375] (-) TimerEvent: {}
+[2.410982] (-) TimerEvent: {}
+[2.511506] (-) TimerEvent: {}
+[2.612046] (-) TimerEvent: {}
+[2.712646] (-) TimerEvent: {}
+[2.813353] (-) TimerEvent: {}
+[2.913937] (-) TimerEvent: {}
+[3.015014] (-) TimerEvent: {}
+[3.117527] (-) TimerEvent: {}
+[3.218610] (-) TimerEvent: {}
+[3.319177] (-) TimerEvent: {}
+[3.420092] (-) TimerEvent: {}
+[3.520657] (-) TimerEvent: {}
+[3.621402] (-) TimerEvent: {}
+[3.723078] (-) TimerEvent: {}
+[3.823801] (-) TimerEvent: {}
+[3.924384] (-) TimerEvent: {}
+[4.024756] (-) TimerEvent: {}
+[4.125680] (-) TimerEvent: {}
+[4.226204] (-) TimerEvent: {}
+[4.326668] (-) TimerEvent: {}
+[4.427120] (-) TimerEvent: {}
+[4.528132] (-) TimerEvent: {}
+[4.628753] (-) TimerEvent: {}
+[4.729309] (-) TimerEvent: {}
+[4.771230] (aria_vision_zed) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed/build', '--no-deps', 'symlink_data'], 'cwd': '/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'faneva', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/faneva', 'CHROME_DESKTOP': 'code.desktop', 'CYCLONEDDS_URI': 'file:///var/lib/theconstruct.rrl/cyclonedds_husarnet.xml', 'TERM_PROGRAM_VERSION': '1.131.0', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/faneva/.nvm/versions/node/v20.20.2/bin', 'NVM_INC': '/home/faneva/.nvm/versions/node/v20.20.2/include/node', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2830', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3058', 'BUNDLED_DEBUGPY_PATH': '/home/faneva/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b2b020ad004f925680b6ff866a7eb784', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '25363', 'NVM_DIR': '/home/faneva/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'faneva', 'JOURNAL_STREAM': '10:18188', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'faneva', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/home/faneva/.local/bin:/home/faneva/.opencode/bin:/home/faneva/.local/bin:/home/faneva/.local/bin:/home/faneva/.local/bin:/home/faneva/.opencode/bin:/opt/ros/jazzy/bin:/home/faneva/.nvm/versions/node/v20.20.2/bin:/home/faneva/.local/bin:/home/faneva/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/faneva/.dotnet/tools:/opt/android-studio/bin:/home/faneva/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts:/opt/android-studio/bin', 'SESSION_MANAGER': 'local/faneva-X515JAB:@/tmp/.ICE-unix/3058,unix/faneva-X515JAB:/tmp/.ICE-unix/3058', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/var/lib/theconstruct.rrl/fastdds_husarnet.xml', 'INVOCATION_ID': '0535c07cb9bf444188c61d61af8286b7', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/faneva/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-a3a00f31be05bc17.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/faneva/.config/Code/User/workspaceStorage/90f640ef8b7862a8212050798fb5d11d/ms-python.python/pythonrc.py', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/faneva/.cache/dotnet_bundle_extract', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6Z91T3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-bea9844996.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b2b020ad004f925680b6ff866a7eb784', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.821248] (aria_vision_rgb) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb/build', '--no-deps', 'symlink_data'], 'cwd': '/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'faneva', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/faneva', 'CHROME_DESKTOP': 'code.desktop', 'CYCLONEDDS_URI': 'file:///var/lib/theconstruct.rrl/cyclonedds_husarnet.xml', 'TERM_PROGRAM_VERSION': '1.131.0', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/faneva/.nvm/versions/node/v20.20.2/bin', 'NVM_INC': '/home/faneva/.nvm/versions/node/v20.20.2/include/node', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2830', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3058', 'BUNDLED_DEBUGPY_PATH': '/home/faneva/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b2b020ad004f925680b6ff866a7eb784', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '25363', 'NVM_DIR': '/home/faneva/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'faneva', 'JOURNAL_STREAM': '10:18188', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'faneva', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/home/faneva/.local/bin:/home/faneva/.opencode/bin:/home/faneva/.local/bin:/home/faneva/.local/bin:/home/faneva/.local/bin:/home/faneva/.opencode/bin:/opt/ros/jazzy/bin:/home/faneva/.nvm/versions/node/v20.20.2/bin:/home/faneva/.local/bin:/home/faneva/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/faneva/.dotnet/tools:/opt/android-studio/bin:/home/faneva/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts:/opt/android-studio/bin', 'SESSION_MANAGER': 'local/faneva-X515JAB:@/tmp/.ICE-unix/3058,unix/faneva-X515JAB:/tmp/.ICE-unix/3058', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/var/lib/theconstruct.rrl/fastdds_husarnet.xml', 'INVOCATION_ID': '0535c07cb9bf444188c61d61af8286b7', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/faneva/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-a3a00f31be05bc17.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/faneva/.config/Code/User/workspaceStorage/90f640ef8b7862a8212050798fb5d11d/ms-python.python/pythonrc.py', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/faneva/.cache/dotnet_bundle_extract', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6Z91T3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-bea9844996.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b2b020ad004f925680b6ff866a7eb784', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.829411] (-) TimerEvent: {}
+[4.929754] (-) TimerEvent: {}
+[5.030121] (-) TimerEvent: {}
+[5.130773] (-) TimerEvent: {}
+[5.232349] (-) TimerEvent: {}
+[5.332876] (-) TimerEvent: {}
+[5.433369] (-) TimerEvent: {}
+[5.533862] (-) TimerEvent: {}
+[5.634512] (-) TimerEvent: {}
+[5.719125] (aria_vision_zed) StdoutLine: {'line': b'running develop\n'}
+[5.727820] (aria_vision_rgb) StdoutLine: {'line': b'running develop\n'}
+[5.734623] (-) TimerEvent: {}
+[5.835023] (-) TimerEvent: {}
+[5.935347] (-) TimerEvent: {}
+[6.035661] (-) TimerEvent: {}
+[6.136140] (-) TimerEvent: {}
+[6.217705] (aria_vision_zed) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)\n'}
+[6.219770] (aria_vision_zed) StderrLine: {'line': b'  self.local_index = Environment(self.shadow_path + sys.path)\n'}
+[6.236811] (aria_vision_rgb) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)\n'}
+[6.237581] (-) TimerEvent: {}
+[6.239374] (aria_vision_rgb) StderrLine: {'line': b'  self.local_index = Environment(self.shadow_path + sys.path)\n'}
+[6.338523] (-) TimerEvent: {}
+[6.400123] (aria_vision_rgb) StdoutLine: {'line': b'running egg_info\n'}
+[6.401073] (aria_vision_rgb) StdoutLine: {'line': b'creating aria_vision_rgb.egg-info\n'}
+[6.401727] (aria_vision_zed) StdoutLine: {'line': b'running egg_info\n'}
+[6.402158] (aria_vision_zed) StdoutLine: {'line': b'creating aria_vision_zed.egg-info\n'}
+[6.438561] (-) TimerEvent: {}
+[6.455520] (aria_vision_rgb) StdoutLine: {'line': b'writing aria_vision_rgb.egg-info/PKG-INFO\n'}
+[6.455882] (aria_vision_rgb) StdoutLine: {'line': b'writing dependency_links to aria_vision_rgb.egg-info/dependency_links.txt\n'}
+[6.456121] (aria_vision_rgb) StdoutLine: {'line': b'writing entry points to aria_vision_rgb.egg-info/entry_points.txt\n'}
+[6.456354] (aria_vision_rgb) StdoutLine: {'line': b'writing requirements to aria_vision_rgb.egg-info/requires.txt\n'}
+[6.456568] (aria_vision_rgb) StdoutLine: {'line': b'writing top-level names to aria_vision_rgb.egg-info/top_level.txt\n'}
+[6.456740] (aria_vision_rgb) StdoutLine: {'line': b"writing manifest file 'aria_vision_rgb.egg-info/SOURCES.txt'\n"}
+[6.460087] (aria_vision_zed) StdoutLine: {'line': b'writing aria_vision_zed.egg-info/PKG-INFO\n'}
+[6.460767] (aria_vision_zed) StdoutLine: {'line': b'writing dependency_links to aria_vision_zed.egg-info/dependency_links.txt\n'}
+[6.461121] (aria_vision_zed) StdoutLine: {'line': b'writing entry points to aria_vision_zed.egg-info/entry_points.txt\n'}
+[6.461500] (aria_vision_zed) StdoutLine: {'line': b'writing requirements to aria_vision_zed.egg-info/requires.txt\n'}
+[6.461818] (aria_vision_zed) StdoutLine: {'line': b'writing top-level names to aria_vision_zed.egg-info/top_level.txt\n'}
+[6.462121] (aria_vision_zed) StdoutLine: {'line': b"writing manifest file 'aria_vision_zed.egg-info/SOURCES.txt'\n"}
+[6.538690] (-) TimerEvent: {}
+[6.567047] (aria_vision_rgb) StdoutLine: {'line': b"reading manifest file 'aria_vision_rgb.egg-info/SOURCES.txt'\n"}
+[6.568470] (aria_vision_rgb) StdoutLine: {'line': b"writing manifest file 'aria_vision_rgb.egg-info/SOURCES.txt'\n"}
+[6.572518] (aria_vision_zed) StdoutLine: {'line': b"reading manifest file 'aria_vision_zed.egg-info/SOURCES.txt'\n"}
+[6.573440] (aria_vision_zed) StdoutLine: {'line': b"writing manifest file 'aria_vision_zed.egg-info/SOURCES.txt'\n"}
+[6.625381] (aria_vision_rgb) StdoutLine: {'line': b'running build_ext\n'}
+[6.626927] (aria_vision_rgb) StdoutLine: {'line': b'Creating /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/lib/python3.12/site-packages/aria-vision-rgb.egg-link (link to .)\n'}
+[6.628524] (aria_vision_rgb) StdoutLine: {'line': b'Installing rgb_vision_node script to /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/lib/aria_vision_rgb\n'}
+[6.629510] (aria_vision_rgb) StdoutLine: {'line': b'\n'}
+[6.629825] (aria_vision_rgb) StdoutLine: {'line': b'Installed /home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb\n'}
+[6.630246] (aria_vision_rgb) StdoutLine: {'line': b'running symlink_data\n'}
+[6.630620] (aria_vision_rgb) StdoutLine: {'line': b'creating /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/ament_index\n'}
+[6.630974] (aria_vision_rgb) StdoutLine: {'line': b'creating /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/ament_index/resource_index\n'}
+[6.631297] (aria_vision_rgb) StdoutLine: {'line': b'creating /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/ament_index/resource_index/packages\n'}
+[6.631776] (aria_vision_rgb) StdoutLine: {'line': b'symbolically linking /home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb/resource/aria_vision_rgb -> /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/ament_index/resource_index/packages\n'}
+[6.632085] (aria_vision_rgb) StdoutLine: {'line': b'symbolically linking /home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb/package.xml -> /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/aria_vision_rgb\n'}
+[6.636117] (aria_vision_zed) StdoutLine: {'line': b'running build_ext\n'}
+[6.636527] (aria_vision_zed) StdoutLine: {'line': b'Creating /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/lib/python3.12/site-packages/aria-vision-zed.egg-link (link to .)\n'}
+[6.638222] (aria_vision_zed) StdoutLine: {'line': b'Installing zed_fusion_node script to /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/lib/aria_vision_zed\n'}
+[6.638651] (aria_vision_zed) StdoutLine: {'line': b'Installing zed_stub_publisher script to /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/lib/aria_vision_zed\n'}
+[6.638912] (-) TimerEvent: {}
+[6.639179] (aria_vision_zed) StdoutLine: {'line': b'\n'}
+[6.639466] (aria_vision_zed) StdoutLine: {'line': b'Installed /home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed\n'}
+[6.639807] (aria_vision_zed) StdoutLine: {'line': b'running symlink_data\n'}
+[6.640068] (aria_vision_zed) StdoutLine: {'line': b'creating /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/share/ament_index\n'}
+[6.640351] (aria_vision_zed) StdoutLine: {'line': b'creating /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/share/ament_index/resource_index\n'}
+[6.640567] (aria_vision_zed) StdoutLine: {'line': b'creating /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/share/ament_index/resource_index/packages\n'}
+[6.640777] (aria_vision_zed) StdoutLine: {'line': b'symbolically linking /home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed/resource/aria_vision_zed -> /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/share/ament_index/resource_index/packages\n'}
+[6.640958] (aria_vision_zed) StdoutLine: {'line': b'symbolically linking /home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed/package.xml -> /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/share/aria_vision_zed\n'}
+[6.739093] (-) TimerEvent: {}
+[6.759120] (aria_vision_rgb) CommandEnded: {'returncode': 0}
+[6.799796] (aria_vision_rgb) JobEnded: {'identifier': 'aria_vision_rgb', 'rc': 0}
+[6.801803] (aria_vision_zed) CommandEnded: {'returncode': 0}
+[6.826513] (aria_vision_zed) JobEnded: {'identifier': 'aria_vision_zed', 'rc': 0}
+[6.829726] (-) EventReactorShutdown: {}

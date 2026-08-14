@@ -1,0 +1,26 @@
+[4.822s] Invoking command in '/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb/build --no-deps symlink_data
+[5.726s] running develop
+[6.236s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[6.238s]   self.local_index = Environment(self.shadow_path + sys.path)
+[6.399s] running egg_info
+[6.399s] creating aria_vision_rgb.egg-info
+[6.454s] writing aria_vision_rgb.egg-info/PKG-INFO
+[6.454s] writing dependency_links to aria_vision_rgb.egg-info/dependency_links.txt
+[6.454s] writing entry points to aria_vision_rgb.egg-info/entry_points.txt
+[6.455s] writing requirements to aria_vision_rgb.egg-info/requires.txt
+[6.455s] writing top-level names to aria_vision_rgb.egg-info/top_level.txt
+[6.455s] writing manifest file 'aria_vision_rgb.egg-info/SOURCES.txt'
+[6.565s] reading manifest file 'aria_vision_rgb.egg-info/SOURCES.txt'
+[6.567s] writing manifest file 'aria_vision_rgb.egg-info/SOURCES.txt'
+[6.624s] running build_ext
+[6.625s] Creating /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/lib/python3.12/site-packages/aria-vision-rgb.egg-link (link to .)
+[6.627s] Installing rgb_vision_node script to /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/lib/aria_vision_rgb
+[6.628s] 
+[6.628s] Installed /home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb
+[6.629s] running symlink_data
+[6.629s] creating /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/ament_index
+[6.629s] creating /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/ament_index/resource_index
+[6.630s] creating /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/ament_index/resource_index/packages
+[6.630s] symbolically linking /home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb/resource/aria_vision_rgb -> /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/ament_index/resource_index/packages
+[6.631s] symbolically linking /home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb/package.xml -> /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/aria_vision_rgb
+[6.758s] Invoked command in '/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb/build --no-deps symlink_data

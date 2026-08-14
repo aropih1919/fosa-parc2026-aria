@@ -1,0 +1,207 @@
+[0.663s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'aria_vision_zed', 'aria_vision_rgb', '--symlink-install']
+[0.663s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['aria_vision_zed', 'aria_vision_rgb'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f6c747aa540>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6c74e4af60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6c74e4af60>>, mixin_verb=('build',))
+[0.780s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.781s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.781s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.781s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.781s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.781s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.781s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/faneva/PNPrepa/fosa-parc2026-aria'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(aria_gps_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(aria_gps_nav) by extension 'ignore'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(aria_gps_nav) by extension 'ignore_ament_install'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(aria_gps_nav) by extensions ['colcon_pkg']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(aria_gps_nav) by extension 'colcon_pkg'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(aria_gps_nav) by extensions ['colcon_meta']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(aria_gps_nav) by extension 'colcon_meta'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(aria_gps_nav) by extensions ['ros']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(aria_gps_nav) by extension 'ros'
+[0.869s] DEBUG:colcon.colcon_core.package_identification:Package 'aria_gps_nav' with type 'ros.ament_python' and name 'aria_gps_nav'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(aria_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(aria_msgs) by extension 'ignore'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(aria_msgs) by extension 'ignore_ament_install'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(aria_msgs) by extensions ['colcon_pkg']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(aria_msgs) by extension 'colcon_pkg'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(aria_msgs) by extensions ['colcon_meta']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(aria_msgs) by extension 'colcon_meta'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(aria_msgs) by extensions ['ros']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(aria_msgs) by extension 'ros'
+[0.871s] DEBUG:colcon.colcon_core.package_identification:Package 'aria_msgs' with type 'ros.ament_cmake' and name 'aria_msgs'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(aria_nlp_mission) by extensions ['ignore', 'ignore_ament_install']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(aria_nlp_mission) by extension 'ignore'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(aria_nlp_mission) by extension 'ignore_ament_install'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(aria_nlp_mission) by extensions ['colcon_pkg']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(aria_nlp_mission) by extension 'colcon_pkg'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(aria_nlp_mission) by extensions ['colcon_meta']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(aria_nlp_mission) by extension 'colcon_meta'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(aria_nlp_mission) by extensions ['ros']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(aria_nlp_mission) by extension 'ros'
+[0.873s] DEBUG:colcon.colcon_core.package_identification:Package 'aria_nlp_mission' with type 'ros.ament_python' and name 'aria_nlp_mission'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(aria_vision_rgb) by extensions ['ignore', 'ignore_ament_install']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(aria_vision_rgb) by extension 'ignore'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(aria_vision_rgb) by extension 'ignore_ament_install'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(aria_vision_rgb) by extensions ['colcon_pkg']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(aria_vision_rgb) by extension 'colcon_pkg'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(aria_vision_rgb) by extensions ['colcon_meta']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(aria_vision_rgb) by extension 'colcon_meta'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(aria_vision_rgb) by extensions ['ros']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(aria_vision_rgb) by extension 'ros'
+[0.875s] DEBUG:colcon.colcon_core.package_identification:Package 'aria_vision_rgb' with type 'ros.ament_python' and name 'aria_vision_rgb'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(aria_vision_zed) by extensions ['ignore', 'ignore_ament_install']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(aria_vision_zed) by extension 'ignore'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(aria_vision_zed) by extension 'ignore_ament_install'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(aria_vision_zed) by extensions ['colcon_pkg']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(aria_vision_zed) by extension 'colcon_pkg'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(aria_vision_zed) by extensions ['colcon_meta']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(aria_vision_zed) by extension 'colcon_meta'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(aria_vision_zed) by extensions ['ros']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(aria_vision_zed) by extension 'ros'
+[0.877s] DEBUG:colcon.colcon_core.package_identification:Package 'aria_vision_zed' with type 'ros.ament_python' and name 'aria_vision_zed'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.879s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.879s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.879s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.879s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.879s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.942s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'aria_gps_nav' in 'aria_gps_nav'
+[0.942s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'aria_msgs' in 'aria_msgs'
+[0.942s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'aria_nlp_mission' in 'aria_nlp_mission'
+[0.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.946s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.958s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/jazzy
+[0.963s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.157s] Level 5:colcon.colcon_core.verb:set package 'aria_vision_rgb' build argument 'cmake_args' from command line to 'None'
+[1.157s] Level 5:colcon.colcon_core.verb:set package 'aria_vision_rgb' build argument 'cmake_target' from command line to 'None'
+[1.157s] Level 5:colcon.colcon_core.verb:set package 'aria_vision_rgb' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.157s] Level 5:colcon.colcon_core.verb:set package 'aria_vision_rgb' build argument 'cmake_clean_cache' from command line to 'False'
+[1.157s] Level 5:colcon.colcon_core.verb:set package 'aria_vision_rgb' build argument 'cmake_clean_first' from command line to 'False'
+[1.157s] Level 5:colcon.colcon_core.verb:set package 'aria_vision_rgb' build argument 'cmake_force_configure' from command line to 'False'
+[1.157s] Level 5:colcon.colcon_core.verb:set package 'aria_vision_rgb' build argument 'ament_cmake_args' from command line to 'None'
+[1.157s] Level 5:colcon.colcon_core.verb:set package 'aria_vision_rgb' build argument 'catkin_cmake_args' from command line to 'None'
+[1.157s] Level 5:colcon.colcon_core.verb:set package 'aria_vision_rgb' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.157s] DEBUG:colcon.colcon_core.verb:Building package 'aria_vision_rgb' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb', 'merge_install': False, 'path': '/home/faneva/PNPrepa/fosa-parc2026-aria/aria_vision_rgb', 'symlink_install': True, 'test_result_base': None}
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'aria_vision_zed' build argument 'cmake_args' from command line to 'None'
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'aria_vision_zed' build argument 'cmake_target' from command line to 'None'
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'aria_vision_zed' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'aria_vision_zed' build argument 'cmake_clean_cache' from command line to 'False'
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'aria_vision_zed' build argument 'cmake_clean_first' from command line to 'False'
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'aria_vision_zed' build argument 'cmake_force_configure' from command line to 'False'
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'aria_vision_zed' build argument 'ament_cmake_args' from command line to 'None'
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'aria_vision_zed' build argument 'catkin_cmake_args' from command line to 'None'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'aria_vision_zed' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.159s] DEBUG:colcon.colcon_core.verb:Building package 'aria_vision_zed' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed', 'merge_install': False, 'path': '/home/faneva/PNPrepa/fosa-parc2026-aria/aria_vision_zed', 'symlink_install': True, 'test_result_base': None}
+[1.159s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.162s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.163s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/faneva/PNPrepa/fosa-parc2026-aria/aria_vision_rgb' with build type 'ament_python'
+[1.164s] Level 1:colcon.colcon_core.shell:create_environment_hook('aria_vision_rgb', 'ament_prefix_path')
+[1.173s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/aria_vision_rgb/hook/ament_prefix_path.ps1'
+[1.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/aria_vision_rgb/hook/ament_prefix_path.dsv'
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/aria_vision_rgb/hook/ament_prefix_path.sh'
+[1.182s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.182s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.189s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/faneva/PNPrepa/fosa-parc2026-aria/aria_vision_zed' with build type 'ament_python'
+[1.189s] Level 1:colcon.colcon_core.shell:create_environment_hook('aria_vision_zed', 'ament_prefix_path')
+[1.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/share/aria_vision_zed/hook/ament_prefix_path.ps1'
+[1.192s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/share/aria_vision_zed/hook/ament_prefix_path.dsv'
+[1.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/share/aria_vision_zed/hook/ament_prefix_path.sh'
+[1.196s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.196s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.690s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/faneva/PNPrepa/fosa-parc2026-aria/aria_vision_rgb'
+[1.690s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.691s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.161s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/faneva/PNPrepa/fosa-parc2026-aria/aria_vision_zed'
+[2.162s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.162s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.813s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_ext, build_clib, install_data, develop, sdist, build, alias, check, pytest, editable_wheel, bdist_dumb, install_scripts, dist_info, setopt, bdist, symlink_data, upload, test, init_catalog, install_headers, build_scripts, bdist_rpm, clean, easy_install, bdist_egg, ptr, bdist_wheel, saveopts, install, update_catalog, install_egg_info, install_lib, upload_docs, extract_messages, compile_catalog, rotate, register, egg_info, build_py
+[4.830s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_ext, build_clib, install_data, develop, sdist, build, alias, check, pytest, editable_wheel, bdist_dumb, install_scripts, dist_info, setopt, bdist, symlink_data, upload, test, init_catalog, install_headers, build_scripts, bdist_rpm, clean, easy_install, bdist_egg, ptr, bdist_wheel, saveopts, install, update_catalog, install_egg_info, install_lib, upload_docs, extract_messages, compile_catalog, rotate, register, egg_info, build_py
+[5.932s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --allow-hosts, --dry-run, --no-user-cfg, --script-dir, --exclude-scripts, --multi-version, --local-snapshots-ok, --upgrade, --site-dirs, --install-layout, --build-directory, --prefix, --record, --index-url, --no-find-links, --find-links, --editable, --uninstall, --no-deps, --install-dir, --zip-ok, --verbose, --user, --egg-path, --force-installation-into-system-dir, --optimize, --always-copy, --quiet, --version, --always-unzip, --help
+[5.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed/build --no-deps symlink_data
+[5.981s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --allow-hosts, --dry-run, --no-user-cfg, --script-dir, --exclude-scripts, --multi-version, --local-snapshots-ok, --upgrade, --site-dirs, --install-layout, --build-directory, --prefix, --record, --index-url, --no-find-links, --find-links, --editable, --uninstall, --no-deps, --install-dir, --zip-ok, --verbose, --user, --egg-path, --force-installation-into-system-dir, --optimize, --always-copy, --quiet, --version, --always-unzip, --help
+[5.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb/build --no-deps symlink_data
+[7.921s] Level 1:colcon.colcon_core.shell:create_environment_hook('aria_vision_rgb', 'pythonpath_develop')
+[7.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb/share/aria_vision_rgb/hook/pythonpath_develop.ps1'
+[7.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb/build --no-deps symlink_data
+[7.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb/share/aria_vision_rgb/hook/pythonpath_develop.dsv'
+[7.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb/share/aria_vision_rgb/hook/pythonpath_develop.sh'
+[7.946s] Level 1:colcon.colcon_core.environment:checking '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb' for CMake module files
+[7.947s] Level 1:colcon.colcon_core.environment:checking '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb' for CMake config files
+[7.948s] Level 1:colcon.colcon_core.environment:checking '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/lib'
+[7.948s] Level 1:colcon.colcon_core.environment:checking '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/bin'
+[7.948s] Level 1:colcon.colcon_core.environment:checking '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/lib/pkgconfig/aria_vision_rgb.pc'
+[7.949s] Level 1:colcon.colcon_core.environment:checking '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/lib/python3.12/site-packages'
+[7.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('aria_vision_rgb', 'pythonpath')
+[7.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/aria_vision_rgb/hook/pythonpath.ps1'
+[7.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/aria_vision_rgb/hook/pythonpath.dsv'
+[7.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/aria_vision_rgb/hook/pythonpath.sh'
+[7.952s] Level 1:colcon.colcon_core.environment:checking '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/bin'
+[7.952s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aria_vision_rgb)
+[7.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/aria_vision_rgb/package.ps1'
+[7.954s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/aria_vision_rgb/package.dsv'
+[7.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/aria_vision_rgb/package.sh'
+[7.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/aria_vision_rgb/package.bash'
+[7.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/aria_vision_rgb/package.zsh'
+[7.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/colcon-core/packages/aria_vision_rgb)
+[7.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('aria_vision_zed', 'pythonpath_develop')
+[7.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed/share/aria_vision_zed/hook/pythonpath_develop.ps1'
+[7.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed/build --no-deps symlink_data
+[7.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed/share/aria_vision_zed/hook/pythonpath_develop.dsv'
+[7.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_zed/share/aria_vision_zed/hook/pythonpath_develop.sh'
+[7.967s] Level 1:colcon.colcon_core.environment:checking '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed' for CMake module files
+[7.968s] Level 1:colcon.colcon_core.environment:checking '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed' for CMake config files
+[7.969s] Level 1:colcon.colcon_core.environment:checking '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/lib'
+[7.970s] Level 1:colcon.colcon_core.environment:checking '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/bin'
+[7.970s] Level 1:colcon.colcon_core.environment:checking '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/lib/pkgconfig/aria_vision_zed.pc'
+[7.970s] Level 1:colcon.colcon_core.environment:checking '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/lib/python3.12/site-packages'
+[7.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('aria_vision_zed', 'pythonpath')
+[7.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/share/aria_vision_zed/hook/pythonpath.ps1'
+[7.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/share/aria_vision_zed/hook/pythonpath.dsv'
+[7.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/share/aria_vision_zed/hook/pythonpath.sh'
+[7.976s] Level 1:colcon.colcon_core.environment:checking '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/bin'
+[7.977s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aria_vision_zed)
+[7.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/share/aria_vision_zed/package.ps1'
+[7.981s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/share/aria_vision_zed/package.dsv'
+[7.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/share/aria_vision_zed/package.sh'
+[7.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/share/aria_vision_zed/package.bash'
+[7.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/share/aria_vision_zed/package.zsh'
+[7.987s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_zed/share/colcon-core/packages/aria_vision_zed)
+[7.988s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.990s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.991s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.991s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.020s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.021s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.021s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.155s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.155s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/faneva/PNPrepa/fosa-parc2026-aria/install/local_setup.ps1'
+[8.157s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/faneva/PNPrepa/fosa-parc2026-aria/install/_local_setup_util_ps1.py'
+[8.165s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/faneva/PNPrepa/fosa-parc2026-aria/install/setup.ps1'
+[8.167s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/faneva/PNPrepa/fosa-parc2026-aria/install/local_setup.sh'
+[8.169s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/faneva/PNPrepa/fosa-parc2026-aria/install/_local_setup_util_sh.py'
+[8.170s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/faneva/PNPrepa/fosa-parc2026-aria/install/setup.sh'
+[8.172s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/faneva/PNPrepa/fosa-parc2026-aria/install/local_setup.bash'
+[8.174s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/faneva/PNPrepa/fosa-parc2026-aria/install/setup.bash'
+[8.176s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/faneva/PNPrepa/fosa-parc2026-aria/install/local_setup.zsh'
+[8.177s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/faneva/PNPrepa/fosa-parc2026-aria/install/setup.zsh'

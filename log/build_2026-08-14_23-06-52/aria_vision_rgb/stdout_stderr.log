@@ -1,0 +1,24 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+  self.local_index = Environment(self.shadow_path + sys.path)
+running egg_info
+creating aria_vision_rgb.egg-info
+writing aria_vision_rgb.egg-info/PKG-INFO
+writing dependency_links to aria_vision_rgb.egg-info/dependency_links.txt
+writing entry points to aria_vision_rgb.egg-info/entry_points.txt
+writing requirements to aria_vision_rgb.egg-info/requires.txt
+writing top-level names to aria_vision_rgb.egg-info/top_level.txt
+writing manifest file 'aria_vision_rgb.egg-info/SOURCES.txt'
+reading manifest file 'aria_vision_rgb.egg-info/SOURCES.txt'
+writing manifest file 'aria_vision_rgb.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/lib/python3.12/site-packages/aria-vision-rgb.egg-link (link to .)
+Installing rgb_vision_node script to /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/lib/aria_vision_rgb
+
+Installed /home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb
+running symlink_data
+creating /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/ament_index
+creating /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/ament_index/resource_index
+creating /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/ament_index/resource_index/packages
+symbolically linking /home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb/resource/aria_vision_rgb -> /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/ament_index/resource_index/packages
+symbolically linking /home/faneva/PNPrepa/fosa-parc2026-aria/build/aria_vision_rgb/package.xml -> /home/faneva/PNPrepa/fosa-parc2026-aria/install/aria_vision_rgb/share/aria_vision_rgb

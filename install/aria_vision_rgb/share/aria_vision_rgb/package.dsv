@@ -1,0 +1,9 @@
+source;share/aria_vision_rgb/hook/pythonpath.ps1
+source;share/aria_vision_rgb/hook/pythonpath.dsv
+source;share/aria_vision_rgb/hook/pythonpath.sh
+source;share/aria_vision_rgb/hook/ament_prefix_path.ps1
+source;share/aria_vision_rgb/hook/ament_prefix_path.dsv
+source;share/aria_vision_rgb/hook/ament_prefix_path.sh
+source;../../build/aria_vision_rgb/share/aria_vision_rgb/hook/pythonpath_develop.ps1
+source;../../build/aria_vision_rgb/share/aria_vision_rgb/hook/pythonpath_develop.dsv
+source;../../build/aria_vision_rgb/share/aria_vision_rgb/hook/pythonpath_develop.sh

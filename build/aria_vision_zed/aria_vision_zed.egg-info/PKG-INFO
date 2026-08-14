@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: aria-vision-zed
+Version: 0.0.0
+Summary: ZED 2i simulation and 2D/3D vision fusion
+Maintainer: user
+Maintainer-email: user@todo.todo
+License: TODO: License declaration
+Provides-Extra: test
