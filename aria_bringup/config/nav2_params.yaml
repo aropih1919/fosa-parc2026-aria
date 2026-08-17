@@ -18,8 +18,6 @@ bt_navigator:
       enable_groot_monitoring: false
       groot_server_port: 1667
       search_window: 2.0
-    bt_search_directories:
-      - $(find-pkg-share nav2_bt_navigator)/behavior_trees
 
 controller_server:
   ros__parameters:
@@ -202,18 +200,15 @@ global_costmap:
   global_costmap:
     ros__parameters:
       use_sim_time: true
-      global_frame: map
+      global_frame: odom
       robot_base_frame: base_footprint
       robot_radius: 0.25
       resolution: 0.05
-      track_unknown_space: true
+      track_unknown_space: false
       update_frequency: 1.0
       publish_frequency: 1.0
       always_send_full_costmap: true
-      plugins: ["static_layer", "obstacle_layer", "inflation_layer"]
-      static_layer:
-        plugin: "nav2_costmap_2d::StaticLayer"
-        map_subscribe_transient_local: true
+      plugins: ["obstacle_layer", "inflation_layer"]
       obstacle_layer:
         plugin: "nav2_costmap_2d::ObstacleLayer"
         enabled: true
